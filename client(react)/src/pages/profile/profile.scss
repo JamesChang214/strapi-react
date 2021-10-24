@@ -1,0 +1,78 @@
+.profile {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.follow {
+  width: 70%;
+  min-height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.profile-list {
+  width: 30%;
+  min-height: 100vh;
+  overflow-y: auto;
+  button {
+    width: 140px;
+    height: 50px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 1.2rem;
+    color: gray;
+    &:hover {
+      background-color: #6dbb1a;
+      color: white;
+    }
+  }
+  .pro-username {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+  }
+  .pro-detail {
+    width: 70%;
+    height: 100px;
+    border-radius: 5px;
+  }
+}
+
+.pro-img {
+  .photo {
+    width: 70%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.pro-card {
+  width: 200px;
+  height: 395px;
+  margin: 15px;
+  background-color: #d4d4d6;
+  border-radius: 5px;
+  box-shadow: grey 5px 5px 5px;
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .pc-username {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .pc-detail {
+    overflow-y: auto;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+  }
+}

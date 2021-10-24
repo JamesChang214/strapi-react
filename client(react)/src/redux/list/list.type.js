@@ -1,0 +1,10 @@
+const ListType = {
+    GET_LIST: 'GET_LIST',
+    ADD_LIST: 'ADD_LIST',
+    UPDATE_LIST: 'UPDATE_LIST',
+    DELETE_LIST: 'DELETE_LIST',
+    PROCESS_OK_LIST: 'PROCESS_OK_LIST',
+    SHOW_CONTEXT: 'SHOW_CONTEXT',
+};
+
+export default ListType;
